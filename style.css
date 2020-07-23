@@ -115,7 +115,7 @@ section h6 {
     }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 500px) {
     .banner {
         height: 50vh;
     }
@@ -123,7 +123,7 @@ section h6 {
         font-size: 2em;
     }
     .banner .clouds img {
-        bottom: 30%;
+        bottom: 20%;
         animation: animate calc(1s * var(--i)) linear infinite;
     }
     section {
