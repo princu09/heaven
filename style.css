@@ -91,17 +91,19 @@ Code: Totally Free For Developing */
     
     @media (max-width: 720px) {
         .banner #text {
+            position: relative;
             font-size: 5em;
+            color: #fff;
+        }
+        .banner .clouds img {
+            bottom: 0;
+            animation: animate calc(1s * var(--i)) linear infinite;
         }
         section {
-            position: relative;
             padding: 50px 20px;
         }
         section h2 {
-            position: relative;
             font-size: 1.4em;
-            text-align: center;
-            margin-bottom: 50px;
         }
     }
     
@@ -109,14 +111,15 @@ Code: Totally Free For Developing */
         .banner #text {
             font-size: 2em;
         }
+        .banner .clouds img {
+            bottom: 0;
+            animation: animate calc(1s * var(--i)) linear infinite;
+        }
         section {
-            position: relative;
             padding: 50px 20px;
         }
         section h2 {
-            position: relative;
             font-size: 1.4em;
-            text-align: center;
             margin-bottom: 50px;
         }
     }
