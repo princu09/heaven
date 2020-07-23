@@ -82,7 +82,7 @@
 #### CSS File
 
  ```
- /* Owner: NorthFox Developers
+/* Owner: NorthFox Developers
 Developer: Prince Patel
 Oraganization: NorthFox Group
 Code: Totally Free For Developing */
@@ -99,7 +99,6 @@ Code: Totally Free For Developing */
 }
 
 .banner {
-    position: relative;
     width: 100%;
     height: 100vh;
     background: url(img/bg.jpg);
@@ -131,7 +130,7 @@ Code: Totally Free For Developing */
     position: absolute;
     bottom: 0;
     max-width: 100%;
-    animation: animate calc(3s * var(--i)) linear infinite;
+    animation: animate calc(1s * var(--i)) linear infinite;
 }
 
 @keyframes animate {
@@ -164,7 +163,6 @@ section h2 {
 section p {
     font-weight: 400;
     line-height: 30px;
-    text-align: center;
 }
 
 section h6 {
@@ -174,5 +172,51 @@ section h6 {
     text-align: center;
     margin-top: 30px;
     color: #999;
+}
+
+@media (max-width: 720px) {
+    .banner #text {
+        position: relative;
+        font-size: 5em;
+        color: #fff;
+    }
+    .banner .clouds img {
+        position: absolute;
+        bottom: 0px;
+        animation: animate calc(1s * var(--i)) linear infinite;
+    }
+    section {
+        position: relative;
+        padding: 50px 20px;
+    }
+    section h2 {
+        position: relative;
+        font-size: 1.4em;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 300px) {
+    .banner #text {
+        position: relative;
+        font-size: 2em;
+        color: #fff;
+    }
+    .banner .clouds img {
+        position: absolute;
+        bottom: 0;
+        animation: animate calc(1s * var(--i)) linear infinite;
+    }
+    section {
+        position: relative;
+        padding: 50px 20px;
+    }
+    section h2 {
+        position: relative;
+        font-size: 1.4em;
+        text-align: center;
+        margin-bottom: 50px;
+    }
 }
  ```
