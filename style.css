@@ -91,13 +91,7 @@ Code: Totally Free For Developing */
     
     @media (max-width: 720px) {
         .banner #text {
-            position: relative;
             font-size: 5em;
-            color: #fff;
-        }
-        .banner .clouds img {
-            position: absolute;
-            animation: animate calc(1s * var(--i)) linear infinite;
         }
         section {
             position: relative;
@@ -113,13 +107,7 @@ Code: Totally Free For Developing */
     
     @media (max-width: 300px) {
         .banner #text {
-            position: relative;
             font-size: 2em;
-            color: #fff;
-        }
-        .banner .clouds img {
-            position: absolute;
-            animation: animate calc(1s * var(--i)) linear infinite;
         }
         section {
             position: relative;
