@@ -101,7 +101,7 @@ Code: Totally Free For Developing */
         }
         .banner .clouds img {
             position: absolute;
-            bottom: 200px;
+            bottom: 300px;
             animation: animate calc(1s * var(--i)) linear infinite;
         }
         section {
@@ -128,7 +128,7 @@ Code: Totally Free For Developing */
         }
         .banner .clouds img {
             position: absolute;
-            bottom: 200px;
+            bottom: 300px;
             animation: animate calc(1s * var(--i)) linear infinite;
         }
         section {
