@@ -98,7 +98,7 @@ section h6 {
     }
     .banner .clouds img {
         position: absolute;
-        bottom: -80px;
+        bottom: -150px;
         animation: animate calc(1s * var(--i)) linear infinite;
     }
     section {
@@ -121,7 +121,7 @@ section h6 {
     }
     .banner .clouds img {
         position: absolute;
-        bottom: -80px;
+        bottom: -150px;
         animation: animate calc(1s * var(--i)) linear infinite;
     }
     section {
