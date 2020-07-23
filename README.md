@@ -81,11 +81,15 @@
 
 #### CSS File
 
- ```
+```
 /* Owner: NorthFox Developers
 Developer: Prince Patel
 Oraganization: NorthFox Group
 Code: Totally Free For Developing */
+
+html {
+    scroll-behavior: smooth;
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
@@ -175,48 +179,43 @@ section h6 {
 }
 
 @media (max-width: 720px) {
+    .banner {
+        height: 50vh;
+    }
     .banner #text {
         position: relative;
         font-size: 5em;
         color: #fff;
     }
     .banner .clouds img {
-        position: absolute;
-        bottom: 0px;
+        bottom: 20%;
         animation: animate calc(1s * var(--i)) linear infinite;
     }
     section {
-        position: relative;
         padding: 50px 20px;
     }
     section h2 {
-        position: relative;
         font-size: 1.4em;
-        text-align: center;
-        margin-bottom: 50px;
     }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 350px) {
+    .banner {
+        height: 50vh;
+    }
     .banner #text {
-        position: relative;
-        font-size: 2em;
-        color: #fff;
+        font-size: 5em;
     }
     .banner .clouds img {
-        position: absolute;
-        bottom: 0;
+        bottom: 25%;
         animation: animate calc(1s * var(--i)) linear infinite;
     }
     section {
-        position: relative;
         padding: 50px 20px;
     }
     section h2 {
-        position: relative;
         font-size: 1.4em;
-        text-align: center;
         margin-bottom: 50px;
     }
 }
- ```
+```
