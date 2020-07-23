@@ -105,7 +105,7 @@ section h6 {
         color: #fff;
     }
     .banner .clouds img {
-        bottom: 0;
+        bottom: -20px;
         animation: animate calc(1s * var(--i)) linear infinite;
     }
     section {
@@ -125,7 +125,7 @@ section h6 {
         font-size: 2em;
     }
     .banner .clouds img {
-        bottom: 0;
+        bottom: -20px;
         animation: animate calc(1s * var(--i)) linear infinite;
     }
     section {
