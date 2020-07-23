@@ -95,17 +95,12 @@ section h6 {
 }
 
 @media (max-width: 720px) {
-    .banner {
-        width: 100%;
-        height: 80vh;
-    }
     .banner #text {
         position: relative;
         font-size: 5em;
         color: #fff;
     }
     .banner .clouds img {
-        bottom: -20px;
         animation: animate calc(1s * var(--i)) linear infinite;
     }
     section {
@@ -117,15 +112,10 @@ section h6 {
 }
 
 @media (max-width: 300px) {
-    .banner {
-        width: 100%;
-        height: 80vh;
-    }
     .banner #text {
         font-size: 2em;
     }
     .banner .clouds img {
-        bottom: -20px;
         animation: animate calc(1s * var(--i)) linear infinite;
     }
     section {
