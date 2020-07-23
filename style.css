@@ -92,7 +92,7 @@ Code: Totally Free For Developing */
     @media (max-width: 720px) {
         .banner {
             width: 100%;
-            height: 80vh;
+            height: 60vh;
         }
         .banner #text {
             position: relative;
@@ -119,7 +119,7 @@ Code: Totally Free For Developing */
     @media (max-width: 300px) {
         .banner {
             width: 100%;
-            height: 80vh;
+            height: 60vh;
         }
         .banner #text {
             position: relative;
