@@ -90,10 +90,6 @@ Code: Totally Free For Developing */
     }
     
     @media (max-width: 720px) {
-        .banner {
-            width: 100%;
-            height: 60vh;
-        }
         .banner #text {
             position: relative;
             font-size: 5em;
@@ -101,7 +97,6 @@ Code: Totally Free For Developing */
         }
         .banner .clouds img {
             position: absolute;
-            bottom: 500px;
             animation: animate calc(1s * var(--i)) linear infinite;
         }
         section {
@@ -117,10 +112,6 @@ Code: Totally Free For Developing */
     }
     
     @media (max-width: 300px) {
-        .banner {
-            width: 100%;
-            height: 60vh;
-        }
         .banner #text {
             position: relative;
             font-size: 2em;
@@ -128,7 +119,6 @@ Code: Totally Free For Developing */
         }
         .banner .clouds img {
             position: absolute;
-            bottom: 500px;
             animation: animate calc(1s * var(--i)) linear infinite;
         }
         section {
