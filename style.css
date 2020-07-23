@@ -105,7 +105,7 @@ section h6 {
     }
     .banner .clouds img {
         bottom: 20%;
-        animation: animate calc(1s * var(--i)) linear infinite;
+        animation: animate calc(3s * var(--i)) linear infinite;
     }
     section {
         padding: 50px 20px;
@@ -124,7 +124,7 @@ section h6 {
     }
     .banner .clouds img {
         bottom: 25%;
-        animation: animate calc(1s * var(--i)) linear infinite;
+        animation: animate calc(3s * var(--i)) linear infinite;
     }
     section {
         padding: 50px 20px;
